@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+
 from events.viewsets.viewsets import EventUpdateGenericView
 from events.viewsets.viewsets import EventsListGenericView
 from events.viewsets.viewsets import EventsCreateGenericView
